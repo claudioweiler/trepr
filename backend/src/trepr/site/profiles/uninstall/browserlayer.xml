@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layers>
+  <layer name="trepr.site"
+         remove="true"
+  />
+</layers>
