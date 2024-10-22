@@ -56,6 +56,7 @@ setup(
         "plone.restapi",
         "plone.volto",
         "plone.exportimport",
+        "pas.plugins.authomatic",
     ],
     extras_require={
         "test": [
