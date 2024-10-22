@@ -210,7 +210,7 @@ volumes:
   vol-site-data:
     driver_opts:
       type: none
-      device: "${DEPLOY_FOLDER:/srv/trepr/data}"
+      device: /srv/trepr/data
       o: bind
 
 networks:
