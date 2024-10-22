@@ -12,7 +12,7 @@ CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 GIT_FOLDER=$(CURRENT_DIR)/.git
 
 PROJECT_NAME=trepr
-STACK_NAME=tre-pr-claudioweiler-tangrama-com-br
+STACK_NAME=trepr-claudioweiler-tangrama-com-br
 
 VOLTO_VERSION = $(shell cat frontend/mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
 PLONE_VERSION=$(shell cat backend/version.txt)

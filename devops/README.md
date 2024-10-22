@@ -42,11 +42,11 @@ Edit the `.env` file to suit your environment. For example:
 
 ```
 DEPLOY_ENV=prod
-DEPLOY_HOST=tre-pr-claudioweiler.tangrama.com.br
+DEPLOY_HOST=trepr-claudioweiler.tangrama.com.br
 DEPLOY_PORT=22
 DEPLOY_USER=plone
 DOCKER_CONFIG=.docker
-STACK_NAME=tre-pr-claudioweiler-tangrama-com-br
+STACK_NAME=trepr-claudioweiler-tangrama-com-br
 ```
 
 Note: The `.env` file is included in `.gitignore`, ensuring environment-specific configurations aren't pushed to the repository.
@@ -54,7 +54,7 @@ Note: The `.env` file is included in `.gitignore`, ensuring environment-specific
 
 ### Server installation
 
-You need either a Ubuntu or Debian based system for tre-pr-claudioweiler.tangrama.com.br, enable SSH, and install a supported version of Python 3 on that system.
+You need either a Ubuntu or Debian based system for trepr-claudioweiler.tangrama.com.br, enable SSH, and install a supported version of Python 3 on that system.
 
 
 ### Ansible Installation
@@ -73,10 +73,10 @@ Modify `devops/inventory/hosts.yml` with the appropriate connection details:
 ---
 prod:
   hosts:
-    tre-pr-claudioweiler.tangrama.com.br:
+    trepr-claudioweiler.tangrama.com.br:
       ansible_user: root
-      host: tre-pr-claudioweiler
-      hostname: tre-pr-claudioweiler.tangrama.com.br
+      host: trepr-claudioweiler
+      hostname: trepr-claudioweiler.tangrama.com.br
 ```
 
 ## Server Setup
@@ -107,7 +107,7 @@ make docker-info
 
 ### Stack Deployment
 
-Deploy the stack defined in `devops/stacks/tre-pr-claudioweiler.tangrama.com.br.yml` to the remote server with:
+Deploy the stack defined in `devops/stacks/trepr-claudioweiler.tangrama.com.br.yml` to the remote server with:
 
 ```shell
 make stack-deploy

@@ -1,4 +1,4 @@
-name: Manual Deployment of tre-pr-claudioweiler.tangrama.com.br
+name: Manual Deployment of trepr-claudioweiler.tangrama.com.br
 
 on:
   workflow_dispatch:
